@@ -19,6 +19,6 @@ namespace WebShopApp.Infrastructure.Data.Domain
         public string LastName { get; set; } = null!;
         [Required]
         [MaxLength(50)]
-        public string Adress { get; set; } = null!;
+        public string Address { get; set; } = null!;
     }
 }
