@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebShopApp.Core.Contacts;
+using WebShopApp.Core.Contracts;
 using WebShopApp.Core.Services;
 using WebShopApp.Infrastructure.Data.Domain;
 using WebShopApp.Models.Brand;

@@ -20,7 +20,7 @@ namespace WebShopApp.Infrastructure.Data.Domain
         [Required]
         [ForeignKey(nameof(ApplicationUser))]
         public string UserId { get; set; } = null!;
-        public virtual ApplicationUser ApplicationUser { get; set; } = null!;
+        public virtual ApplicationUser User { get; set; } = null!;
     
     public int Quantity { get; set; }
         public decimal Price { get; set; }

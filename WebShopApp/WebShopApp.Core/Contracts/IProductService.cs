@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebShopApp.Infrastructure.Data.Domain;
 
-namespace WebShopApp.Core.Contacts
+namespace WebShopApp.Core.Contracts
 {
     public interface IProductService
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebShopApp.Infrastructure.Data.Domain;
 using WebShopApp.Infrastructure.Data;
-using WebShopApp.Core.Contacts;
+using WebShopApp.Core.Contracts;
 
 namespace WebShopApp.Core.Services
 {
@@ -81,7 +81,7 @@ namespace WebShopApp.Core.Services
         }
 
         public bool Update(int productId, string name, int brandId, int categoryId, string picture,
-int quantity, decimal price, decimal discount)
+            int quantity, decimal price, decimal discount)
         {
             var product = GetProductById(productId);
             if (product == default(Product))
