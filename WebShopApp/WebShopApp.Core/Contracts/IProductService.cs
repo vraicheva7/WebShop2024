@@ -11,7 +11,7 @@ namespace WebShopApp.Core.Contracts
     {
         bool Create(string name, int brandId, int categoryId, string picture, int quantity, decimal price, decimal discount);
 
-        bool Update(int produetId, string name, int brandId, int categoryId, string picture, int quantity, decimal
+        bool Update(int productId, string name, int brandId, int categoryId, string picture, int quantity, decimal
         price, decimal discount);
 
         List<Product> GetProducts();
